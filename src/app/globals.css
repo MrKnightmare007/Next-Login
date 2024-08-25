@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #877d7d; /* Set the background color */
+    box-sizing: border-box; /* Ensures padding and border are included in the width and height */
+}
+
+body {
+    min-height: 100vh; /* Ensures body expands at least to the viewport height */
+    display: flex;
+    flex-direction: column; /* If using flexbox layout */
+}
